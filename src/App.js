@@ -792,14 +792,14 @@ function App() {
       borderBottomLeftRadius: "10px",
       borderBottomRightRadius: "10px",
           }}
-        > <p>
-          style ={{
-             fontFamily: "'Georgia', serif ",
-
-          }}
-
-            <b>𝖬𝖠𝖭𝖨𝖣𝖤𝖤𝖯𝖠𝖪 𝖱𝖤𝖣𝖣𝖸 𝖡𝖮𝖣𝖨𝖦𝖠𝖬</b>
-          </p>
+        > <p
+        style={{
+          fontFamily: "'Georgia', serif",
+        }}
+      >
+        <b>𝖬𝖠𝖭𝖨𝖣𝖤𝖤𝖯𝖠𝖪 𝖱𝖤𝖣𝖣𝖸 𝖡𝖮𝖣𝖨𝖦𝖠𝖬</b>
+      </p>
+      
           <div
             style={{ display: "flex", justifyContent: "center", gap: "15px" }}
           >
