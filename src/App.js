@@ -59,20 +59,20 @@ function App() {
   }, [loadingSuggest]);
 
   useEffect(() => {
-    // Event listener to check scroll position
-    const handleScroll = () => {
-      const isBottom =
-        window.innerHeight + window.scrollY >= document.body.offsetHeight;
-      setShowFooter(isBottom); // Update footer visibility
-    };
+  const handleScroll = debounce(() => {
+    const isBottom =
+      window.innerHeight + window.scrollY >= document.body.offsetHeight - 10; // Add a small threshold
+    if (isBottom) {
+      setShowFooter(true);
+    } else {
+      setShowFooter(true);
+    }
+  }, 100);
 
-    const debouncedHandleScroll = debounce(handleScroll, 100); // Example debounce
-    window.addEventListener("scroll", debouncedHandleScroll);
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
 
-    return () => {
-      window.removeEventListener("scroll", debouncedHandleScroll);
-    };
-  }, []);
 
   if (isLoading) {
     return (
@@ -594,6 +594,8 @@ function App() {
             gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
             gap: "20px",
             padding: "20px",
+            fontFamily: " 'Poppins', 'Helvetica Neue', sans-serif",
+
           }}
         >
           {[
@@ -773,17 +775,18 @@ function App() {
       {showFooter && (
         <footer
           style={{
-            backgroundColor: "#fc8019",
-            color: "#fff",
-            textAlign: "center",
-            width: "98%",
-            padding: "10px 20px",
-            marginTop: "10px", // Space between the recipes and footer
-            marginRight: "20px", // Add gap on the right side
-            borderTopLeftRadius: "10px",
-            borderTopRightRadius: "10px",
-            borderBottomLeftRadius: "10px",
-            borderBottomRightRadius: "10px",
+           backgroundColor: "#fc8019",
+      color: "#fff",
+      textAlign: "center",
+      width: "calc(100% - 80px)", // Adjust width to account for margins
+      padding: "10px 20px",
+      marginTop: "10px", // Space between the recipes and footer
+      marginRight: "20px", // Right gap
+      marginLeft: "20px", // Left gap
+      borderTopLeftRadius: "10px",
+      borderTopRightRadius: "10px",
+      borderBottomLeftRadius: "10px",
+      borderBottomRightRadius: "10px",
           }}
         > <p>
 
