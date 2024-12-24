@@ -303,6 +303,8 @@ function App() {
               color: "#fc8019",
               fontSize: "2rem",
               marginBottom: "20px",
+              fontFamily: "'Georgia', serif ",
+
             }}
           >
             𝑺𝒖𝒈𝒈𝒆𝒔𝒕𝒆𝒅 𝑹𝒆𝒄𝒊𝒑𝒆𝒔
@@ -789,6 +791,10 @@ function App() {
       borderBottomRightRadius: "10px",
           }}
         > <p>
+          style ={{
+             fontFamily: "'Georgia', serif ",
+
+          }}
 
             <b>𝖬𝖠𝖭𝖨𝖣𝖤𝖤𝖯𝖠𝖪 𝖱𝖤𝖣𝖣𝖸 𝖡𝖮𝖣𝖨𝖦𝖠𝖬</b>
           </p>
