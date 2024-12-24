@@ -20,38 +20,38 @@
 
 ---
 
+
 ## 🌟 Features
-Dynamic Recipe Suggestions
 
-Users can input ingredients, dietary restrictions, and cuisine preferences.
-Recipes are dynamically fetched from a CSV dataset using PapaParse, ensuring flexibility and easy updates.
-Interactive Loading Animations
+### 1.1 Dynamic Recipe Suggestions
+- Users can input ingredients, dietary restrictions, and cuisine preferences.
+- Recipes are dynamically fetched from a CSV dataset using PapaParse, ensuring flexibility and easy updates.
 
-Engaging animations using Lottie for loading, suggesting recipes, and handling "no data" scenarios enhance the user experience.
-Advanced Filtering and Matching
+### 1.2 Interactive Loading Animations
+- Engaging animations using Lottie for loading, suggesting recipes, and handling "no data" scenarios enhance the user experience.
 
-Recipes are filtered based on ingredients, dietary preferences (e.g., vegetarian, vegan), and cuisine types (e.g., Indian, Italian).
-Flexible ingredient matching ensures robust search results.
-Responsive Design with React.js
+### 1.3 Advanced Filtering and Matching
+- Recipes are filtered based on ingredients, dietary preferences (e.g., vegetarian, vegan), and cuisine types (e.g., Indian, Italian).
+- Flexible ingredient matching ensures robust search results.
 
-Fully responsive interface optimized for both desktop and mobile devices, ensuring accessibility for all users.
-Custom Styling and Effects
+### 1.4 Responsive Design with React.js
+- Fully responsive interface optimized for both desktop and mobile devices, ensuring accessibility for all users.
 
-Hover effects, fade-in/out animations, and visually appealing components provide a professional and engaging UI.
-Scroll-Optimized Footer
+### 1.5 Custom Styling and Effects
+- Hover effects, fade-in/out animations, and visually appealing components provide a professional and engaging UI.
 
-Footer visibility adapts dynamically to user scrolling for an uncluttered experience.
-Integration of Famous Dishes
+### 1.6 Scroll-Optimized Footer
+- Footer visibility adapts dynamically to user scrolling for an uncluttered experience.
 
-A section showcasing popular dishes with vibrant images and links to detailed recipes or videos.
-Error Handling
+### 1.7 Integration of Famous Dishes
+- A section showcasing popular dishes with vibrant images and links to detailed recipes or videos.
 
-Real-time error messages guide users, ensuring clarity and usability when inputs are invalid or data is unavailable.
-Ease of Data Management
+### 1.8 Error Handling
+- Real-time error messages guide users, ensuring clarity and usability when inputs are invalid or data is unavailable.
 
-Recipes are retrieved from a CSV file, simplifying updates and eliminating the need for a complex database.
+### 1.9 Ease of Data Management
+- Recipes are retrieved from a CSV file, simplifying updates and eliminating the need for a complex database.
 
----
 
 ## 🖥️ Technologies Used
 
