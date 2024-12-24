@@ -79,17 +79,19 @@ Ensure you have the following installed:
    git clone https://github.com/manideepak12/Kitchen-Canvas.git
    cd Kitchen-Canvas
 2.Install Dependencies:
-bash
+   ```bash
 npm install
+   ```
 
 3.Add CSV Data:
 --Place your CSV file containing recipes and ingredient data in the specified folder.
 --Ensure the file format and structure align with the app’s requirements.
 
 4.Start the Development Server:
-bash
-npm start
+   ```bash
 
+npm start
+   ```
 5.View the Application: Open http://localhost:3000 in your browser.
 ---
 
