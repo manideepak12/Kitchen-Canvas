@@ -106,9 +106,11 @@ function App() {
               borderRight: "2px solid #fc8019",
               animation:
                 "typing 4s steps(30, end), blink 0.6s step-end infinite",
+                fontFamily: "Roboto Slab, serif",
+
             }}
           >
-            <b> 𝖲𝗈𝗆𝖾𝖳𝗁𝗂𝗇𝗀 𝗂𝗌 𝖢𝗈𝗈𝗄𝗂𝗇𝗀...</b>
+            <b> SomeThing Is Cooking...</b>
           </span>
           <style>
             {`
