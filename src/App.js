@@ -495,7 +495,7 @@ function App() {
                 marginBottom: "10px",
                 border: "1px solid #ddd",
                 borderRadius: "5px",
-                fontFamily: "'Press Start 2P', cursive",
+                fontFamily: "'Georgia', serif ",
               }}
             />
           </label>
@@ -512,7 +512,7 @@ function App() {
                 marginBottom: "10px",
                 border: "1px solid #ddd",
                 borderRadius: "5px",
-                fontFamily: "'Press Start 2P', cursive",
+                fontFamily: "'Georgia', serif ",
               }}
             >
               <option value="">None</option>
@@ -535,7 +535,8 @@ function App() {
                 marginBottom: "10px",
                 border: "1px solid #ddd",
                 borderRadius: "5px",
-                fontFamily: "'Press Start 2P', cursive",
+                fontFamily: "'Georgia', serif ",
+
               }}
             >
               <option value="">Any</option>
