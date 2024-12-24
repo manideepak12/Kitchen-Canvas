@@ -20,8 +20,6 @@
 
 ---
 
----
-
 ## 🌟 Features
 
 ### 1.1 Dynamic Recipe Suggestions
@@ -53,7 +51,6 @@
 ### 1.9 Ease of Data Management
 - Recipes are retrieved from a CSV file, simplifying updates and eliminating the need for a complex database.
 ---
----
 
 ## 🖥️ Technologies Used
 
@@ -61,7 +58,7 @@
 - **Data Source**: CSV file integration for dynamic data handling
 - **Development Environment**: Visual Studio Code (VS Code)
 
----
+
 ---
 
 ## 🚀 Getting Started
@@ -95,14 +92,14 @@ npm start
 
 5.View the Application: Open http://localhost:3000 in your browser.
 ---
----
+
 
 📚 Future Enhancements
 -Advanced Search and Filters: Add advanced search capabilities for recipes and ingredients.
 -Real-time Data Sync: Integrate with cloud storage for live updates.
 -AI-Powered Recipe Suggestions: Leverage machine learning to recommend recipes based on user preferences.
 
----
+
 ---
 
 👨‍💻 About Myself
@@ -114,7 +111,6 @@ Hi! I’m Manideepak Reddy Bodigam, a passionate Tech Enthusiastic and a 3rd-yea
 - **Location**: Hyderabad, Telangana, India
 - **Languages**: Telugu, Tamil, English
 
----
 ---
 
 ### Highlights of This Version:
