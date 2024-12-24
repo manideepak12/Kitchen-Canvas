@@ -20,6 +20,7 @@
 
 ---
 
+---
 
 ## 🌟 Features
 
@@ -51,7 +52,8 @@
 
 ### 1.9 Ease of Data Management
 - Recipes are retrieved from a CSV file, simplifying updates and eliminating the need for a complex database.
-
+---
+---
 
 ## 🖥️ Technologies Used
 
@@ -59,6 +61,7 @@
 - **Data Source**: CSV file integration for dynamic data handling
 - **Development Environment**: Visual Studio Code (VS Code)
 
+---
 ---
 
 ## 🚀 Getting Started
@@ -91,25 +94,27 @@ bash
 npm start
 
 5.View the Application: Open http://localhost:3000 in your browser.
+---
+---
 
 📚 Future Enhancements
 -Advanced Search and Filters: Add advanced search capabilities for recipes and ingredients.
 -Real-time Data Sync: Integrate with cloud storage for live updates.
 -AI-Powered Recipe Suggestions: Leverage machine learning to recommend recipes based on user preferences.
 
+---
+---
 
 👨‍💻 About Myself
 Hi! I’m Manideepak Reddy Bodigam, a passionate Tech Enthusiastic and a 3rd-year B.Tech student specializing in Artificial Intelligence and Machine Learning at MRITS, Hyderabad, India. I enjoy building web applications that solve real-world problems with clean design and efficient performance.
 
-📇 Personal Details
-Name: Manideepak Reddy Bodigam
-GitHub: manideepak12
-Location: Hyderabad, Telangana, India
-Languages: Telugu, Tamil, English
+## 📇 Personal Details
+- **Name**: Manideepak Reddy Bodigam
+- **LinkedIn**: [Manideepak Reddy Bodigam](https://www.linkedin.com/in/manideepak-reddy-bodigam-/)
+- **Location**: Hyderabad, Telangana, India
+- **Languages**: Telugu, Tamil, English
 
-
-🌟 “Cooking made smarter with Kitchen-Canvas – where technology meets taste!” 🌟
-
+---
 ---
 
 ### Highlights of This Version:
@@ -120,5 +125,6 @@ Languages: Telugu, Tamil, English
 
 
      🌟 “KITCHEN-CANVAS: A PLAYGROUND FOR YOUR IMAGINATION!” 🌟
+---
 
 
