@@ -1,0 +1,37 @@
+/* App.css */
+
+/* Initial animation styles */
+.initial-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #4a90e2, #50e3c2);
+  color: white;
+  font-size: 24px;
+}
+
+/* Fade transition for the main page */
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+/* Main page styles */
+.main-page {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  color: black;
+  min-height: 100vh;
+}
